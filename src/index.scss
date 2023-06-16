@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply flex items-center justify-center min-h-screen bg-orange-200;
+  }
+  h1 {
+    @apply text-7xl text-center;
+  }
+}
